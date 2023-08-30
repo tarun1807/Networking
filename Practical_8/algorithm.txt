@@ -1,0 +1,15 @@
+Step1: Start
+Step2: Create a packet containing attributes like source Id, diestination Id, packet Id, packet 
+counter and payload
+Step3: Input the message to be sent
+Step4: Input payload size
+Step5: Calculate lenght of message and convert into byte array
+Step6: Determine the number of packets:
+ (i) Regular packets = message size / payload
+ (ii) Odd packets (if any) = message size - (Regular packets * payload)
+Step7: Compute total number of packets = Regular packets + Odd packets
+Step8: Input source and desitnation IP address
+Step9: Generate the packets
+Step10: Print the contents of packet
+Step11: Resseamble the data packets and retrieve the original message
+Step12: End
